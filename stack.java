@@ -45,7 +45,8 @@ public class stack {
 	}
 
 	public boolean isEmpty() {
-		
+		return size() == 0;
+
 	}
 
 	public void display() { // we don't want to empty our stack
